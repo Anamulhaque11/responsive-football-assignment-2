@@ -7,6 +7,7 @@ body{
 }
 
 /* header style start  */
+
 header{
     background-color: #2D25A0;
     display: flex;
@@ -21,7 +22,7 @@ header{
     transition: transform 2s ease-in-out;
 }
 header:hover img{
-    transform: rotate(360deg);
+    transform: rotate(30deg) scale(0.80);
 }
 .title h1{
     font-style: normal;
@@ -64,14 +65,16 @@ header:hover img{
     grid-row-gap: 30px;
     grid-column-gap: 30px;
     justify-content: center;
+    padding: 15px;
     
 }
 .player{
     width: 330px;
     height: 474px;
-    padding: 15px;
+    padding: 0px;
     background-color: #FFFFFF;
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    text-overflow: ellipsis;
 }
 .player-photo img{
     width: 300px;
@@ -99,6 +102,7 @@ header:hover img{
     margin-right: 15px;
     margin-left: 15px;
     margin-bottom: 33px;
+    
 }
 
 /* player section style end  */
@@ -138,21 +142,61 @@ header:hover img{
 }
 /* Highlight section style end  */
 
-/* ---------------------
-    footer style start  
--------------------------*/
+
+    /* footer style start */
 footer{
+    width: 483.87px;
+    height: 213px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 0px;
     margin-top: 161px;
+    margin-bottom: 79px;
+    margin-left: auto;
+    margin-right: auto;
 }
-.logo img{
-    width: 483px;
+footer img{
+    width: 483.87px;
     height: 110px;
 }
-.social-icon{
-   margin: 0px 14px;
+.social-links{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 0px;
+    width: 170px;
+    height: 32px;
+    margin: 20px 0px;
+}
+.social-links a{
+    text-decoration: none;
+    font-style: none;
+    width: 32px;
+    height: 32px;
+    border-radius: 16px;
+    margin: 0px 14px;
+    align-self: center;
+    background-color: rgb(190, 188, 188);
    
+
+}
+.icon{
+    color:#969BAB; 
+    width: 15px;
+    height: 12.07px;
+    font-weight: 700;
+    justify-content: center;
+    margin-top: 8px;
+    margin-left: 8px;
+}
+.fa-copyright{
+    color: gray;
+}
+footer p{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    margin-left: 20px;
+    padding-left: 20px;
 }
