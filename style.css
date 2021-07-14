@@ -1,8 +1,55 @@
+/* Google font style added */
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
+/* body section  */
 body{
     font-family: 'Poppins', sans-serif;
 }
+
+/* header style start  */
+header{
+    background-color: #2D25A0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 70px;
+}
+.banner img{
+    width: 556.01px;
+    height: 438px;
+    margin-left: 102px;
+}
+.title h1{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    color: #FFFFFF;
+}
+.live-link{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 10px 24px;
+    background-color: #E02C6D;
+    margin: 0px 8px;
+}
+.live-link:hover{
+    background-image: linear-gradient(red, black);
+    color: white;
+    border-radius: 20px;
+    box-shadow: 5px 5px 8px white, 10px 10px 8px red, 15px 15px 8px green;
+}
+.fa-arrow-right{
+    margin: 0px 8px;
+    width: 24px;
+    height: 24px;
+
+}
+/* Header style end  */
+
+/* player section style start  */
 .container-box{
     display: flex;
     justify-content: center;
@@ -27,11 +74,15 @@ body{
     height: 256px;
     margin: 16px 0px;
 }
+
+/* player section style end  */
+
+/* Highlight section style start  */
 .highlights-container{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 100px;
+    margin-top: 165px;
     
 }
 .highlight-title{
@@ -53,27 +104,13 @@ body{
     color:  #6C6C6C;
     margin: 8px 0px;
 }
-.highlight-title a{
-    text-decoration: none;
-    font-style: normal;
-    font-size: 16px;
-    font-weight: 500;
-    color: #FFFFFF;
-    background-color: #E02C6D;
-
-}
-.fa-arrow-right{
-    color: #FFFFFF;
-    margin-left: 8px;
-  
-   
-}
 .match-photo{
     width: 567px;
     height: 427px;
     margin-left: 81px;
     
 }
+/* Highlight section style end  */
 
 /* ---------------------
     footer style start  
@@ -83,8 +120,13 @@ footer{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 0px;
-    width: 483.87px;
-    height: 213px;
     margin-top: 161px;
+}
+.logo img{
+    width: 483px;
+    height: 110px;
+}
+.social-icon{
+   margin: 0px 14px;
+   
 }
