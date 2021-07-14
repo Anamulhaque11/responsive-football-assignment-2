@@ -171,7 +171,11 @@ header:hover img{
     width: 90px;
     height: 50px;
     background-image: linear-gradient(red, black);
-
+}
+.button:hover{
+    color: white;
+    background-image: linear-gradient(white, black);
+    box-shadow: 5px 5px 8px white, 10px 10px 8px red, 15px 15px 8px green;
 }
 /* join club form style end  */
 /* upcoming match style start  */
